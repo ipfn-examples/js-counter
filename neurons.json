@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Counter",
+    "neurons": [
+      {
+        "name": "Counter",
+        "input": [
+          {
+            "name": "count",
+            "type": "number"
+          }
+        ],
+        "nodes": [
+          {
+            "name": "increment",
+            "input": [
+              {
+                "name": "count",
+                "type": "number"
+              }
+            ],
+            "output": [
+              {
+                "type": "number"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "nucleus": [
+      {
+        "file": "index.ts",
+        "line": 6,
+        "character": 20
+      }
+    ]
+  }
+]

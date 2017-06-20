@@ -1,0 +1,22 @@
+{
+    "name": "@ipfn-examples/counter",
+    "main": "index.js",
+    "version": "0.0.1",
+    "website": "https://github.com/ipfn-examples/js-ipfn-counter",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ipfn-examples/js-ipfn-counter"
+    },
+    "author": {
+        "email": "crackcomm@gmail.com",
+        "name": "Łukasz Kurowski",
+        "url": "https://github.com/crackcomm"
+    },
+    "devDependencies": {
+        "typescript": "next"
+    },
+    "scripts": {
+        "clean": "rm -rf build",
+        "build": "npm run clean && ./node_modules/.bin/tsc && cp README.md build/ && cp package.json build/"
+    }
+}
