@@ -30,6 +30,7 @@
     ],
     "nucleus": [
       {
+        "name": "Counter",
         "file": "index.ts",
         "line": 6,
         "character": 20
