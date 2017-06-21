@@ -12,6 +12,21 @@
         ],
         "nodes": [
           {
+            "name": "count",
+            "input": [
+              {
+                "name": "count",
+                "type": "number"
+              }
+            ],
+            "output": [
+              {
+                "name": "count",
+                "type": "number"
+              }
+            ]
+          },
+          {
             "name": "increment",
             "input": [
               {
