@@ -1,55 +1,56 @@
 [
   {
     "name": "Counter",
-    "neurons": [
-      {
-        "name": "Counter",
-        "input": [
-          {
-            "name": "count",
-            "type": "number"
-          }
-        ],
-        "nodes": [
-          {
-            "name": "count",
-            "input": [
-              {
-                "name": "count",
-                "type": "number"
-              }
-            ],
-            "output": [
-              {
-                "name": "count",
-                "type": "number"
-              }
-            ]
-          },
-          {
-            "name": "increment",
-            "input": [
-              {
-                "name": "count",
-                "type": "number"
-              }
-            ],
-            "output": [
-              {
-                "type": "number"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "nucleus": [
-      {
-        "name": "Counter",
-        "file": "index.ts",
-        "line": 6,
-        "character": 20
-      }
-    ]
+    "nucleus": {
+      "name": "Counter",
+      "file": "index.ts",
+      "line": 6,
+      "character": 20
+    },
+    "interface": {
+      "name": "Counter",
+      "input": [
+        {
+          "name": "count",
+          "type": "number",
+          "always": true
+        }
+      ],
+      "nodes": [
+        {
+          "name": "count",
+          "input": [
+            {
+              "name": "count",
+              "type": "number",
+              "always": true
+            }
+          ],
+          "output": [
+            {
+              "name": "count",
+              "type": "number",
+              "always": true
+            }
+          ]
+        },
+        {
+          "name": "increment",
+          "input": [
+            {
+              "name": "count",
+              "type": "number",
+              "always": true
+            }
+          ],
+          "output": [
+            {
+              "type": "number",
+              "always": true
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
